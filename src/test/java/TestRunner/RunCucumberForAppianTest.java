@@ -10,6 +10,6 @@ import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"classpath:src/test/resources"}, glue = {
-   "com.appiancorp.ps.cucumber"}, plugin = {"pretty"}, tags = { "@test1" })
+   "com.appiancorp.ps.cucumber"}, plugin = {"pretty"}, tags = { "@Expense" })
 public class RunCucumberForAppianTest {
 }
